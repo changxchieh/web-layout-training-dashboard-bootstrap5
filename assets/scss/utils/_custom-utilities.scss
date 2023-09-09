@@ -1,0 +1,39 @@
+.font-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fs-12 {
+    font-size: $font-size-base * .75;
+}
+
+.text-gray {
+    color: $gray-600;
+}
+
+.mt-0-1 {
+    margin-top: -2px;
+}
+
+.me-12 {
+    margin-right: $spacer * 3;
+}
+
+.mb-10 {
+    margin-bottom: $spacer * 2.5;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-hover {
+    transition: all .05s ease-in;
+
+    &:hover {
+        color: $success;
+        transform: scale(1.08);
+    }
+}

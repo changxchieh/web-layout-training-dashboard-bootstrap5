@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+}
+
+.nav-link {
+  &:hover {
+    color: $success;
+  }
+
+  &.active::before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 4px solid $green;
+}
+}
